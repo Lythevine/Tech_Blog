@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Training Blog</title>
+
+  <!-- Fonts ~ Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap styles and css and icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./assets/bootstrap5-3-3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"> -->
+
+  <!-- Local styles -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tech Training Blog</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page">Home
+              <span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Action 1</a>
+              <a class="dropdown-item" href="#">Action 2</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End Header -->
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero bg-dark">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Apprenez le <br> DevSecOps et le <br> Cloud</h1>
+
+        <p>
+          Améliorez-vous et apprenez de nouvelles <br> technologies grâce à des cours gratuits.
+        </p>
+
+        <a href="" class="btn btn-primary rounded rounded-pill px-4 py-2">
+          Lire les cours
+        </a>
+      </div>
+
+      <div class="hero-img">
+        <img class="img-fluid" src="https://devopssec.fr/build/images/home-header.65a76461.png" alt="hero image">
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <!-- Advantages Section -->
+  <section id="advantages" class="avantages py-5">
+    <div class="container">
+
+      <div class="heading">
+        <h2>Les avantages du DevOps</h2>
+        <small class="">Cliquez pour développer</small>
+      </div>
+
+      <div class="advantages-group d-flex g-5 align-items-center justify-content-center">
+        <div class="advantages-drop w-75">
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-img w-50">
+          <img class="img-fluid"
+            src="https://img.freepik.com/vecteurs-libre/design-plat-devops-illustration_52683-84086.jpg?w=826"
+            alt="devops image">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Advantages Section -->
+
+  <!-- devops definition -->
+  <section id="devops" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="about d-flex flex-column gap-3">
+        <h2>Qu'est ce que le <span class="text-primary">DevOps</span> ?</h2>
+        <p>
+          Le terme DevOps est souvent utilisé à tort et de travers comme La formule à la mode.
+          Il est donc primordial de comprendre qu'une démarche DevOps ce n’est pas seulement utiliser des outils
+          modernes ou de livrer de plus en plus rapidement.
+          Ça reste avant tout une combinaison de philosophies culturelles privilégiant une meilleure
+          collaboration/communication entre les équipes de développement (dev) et les équipes d’exploitation (ops).
+          <br><br>Faisons un petit retour en arrière sur les "anciens modèles". L'idée est que pour ce type d'exemplaire
+          ...
+        </p>
+
+        <a href="" class="btn btn-primary rounded rounded-pill px-4 py-2">
+          Lire la suite
+        </a>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- End devops definition -->
+
+  <!-- Les carreaux ci -->
+  <section id="cards" class="cards py-5">
+    <div class="container d-flex flex-column gap-4">
+      <div class="heading">
+        <h2>Les avantages du DevOps</h2>
+      </div>
+
+      <div class="cards-items w-100 d-flex flex-wrap align-items-center justify-content-center gap-4">
+        
+        <div class="item card shadow p-4">
+          <div class="item-header">
+            <i class="bi-bookmark"></i>
+            <h3>Aprendre Kubernetes</h3>
+            <p>
+              Dans ce cours complet et gratuit vous apprendrez les concepts de bases de Kubernetes. Vous saurez ainsi
+              comment créer et gérer un cluster k8s.
+            </p>
+          </div>
+          <a href="" class="btn btn-primary rounded px-4 py-2">
+            Lire la suite
+          </a>
+        </div>
+
+        <div class="item card shadow p-4">
+          <div class="item-header">
+            <i class="bi-bookmark"></i>
+            <h3>Aprendre Kubernetes</h3>
+            <p>
+              Dans ce cours complet et gratuit vous apprendrez les concepts de bases de Kubernetes. Vous saurez ainsi
+              comment créer et gérer un cluster k8s.
+            </p>
+          </div>
+          <a href="" class="btn btn-primary rounded px-4 py-2">
+            Lire la suite
+          </a>
+        </div>
+
+        <div class="item card shadow p-4">
+          <div class="item-header">
+            <i class="bi-bookmark"></i>
+            <h3>Aprendre Kubernetes</h3>
+            <p>
+              Dans ce cours complet et gratuit vous apprendrez les concepts de bases de Kubernetes. Vous saurez ainsi
+              comment créer et gérer un cluster k8s.
+            </p>
+          </div>
+          <a href="" class="btn btn-primary rounded px-4 py-2">
+            Lire la suite
+          </a>
+        </div>
+
+        <div class="item card shadow p-4">
+          <div class="item-header">
+            <i class="bi-bookmark"></i>
+            <h3>Aprendre Kubernetes</h3>
+            <p>
+              Dans ce cours complet et gratuit vous apprendrez les concepts de bases de Kubernetes. Vous saurez ainsi
+              comment créer et gérer un cluster k8s.
+            </p>
+          </div>
+          <a href="" class="btn btn-primary rounded px-4 py-2">
+            Lire la suite
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

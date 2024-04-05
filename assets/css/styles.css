@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 14pt;
+    color: #1d1d1d;   
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a.btn {
+    width: max-content;
+}
+
+.heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.heading small {
+    color: gray;
+}
+
+/* Hero section */
+#hero {
+    height: 90dvh;
+    color: white;
+    display: flex;
+}
+
+#hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20pt;
+}
+
+@media screen and (max-width: 425px) {
+    #hero .container {
+        flex-direction: column;
+        margin: 80px 0;
+    }
+}
+
+/* Cards */
+#cards .cards .cards-items .item {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
